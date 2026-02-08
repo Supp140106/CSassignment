@@ -20,7 +20,7 @@ int is_prime(int num) {
     return 1;
 }
 
-
+//
 double run_parallel(int rl, int rh, int n) {
     int range = rh - rl + 1;
     int chunk = range / n;
@@ -216,3 +216,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
