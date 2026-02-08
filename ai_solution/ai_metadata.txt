@@ -1,4 +1,4 @@
 Model Used: Gemini 2.0 Flash
-Tokens Used: ~450
+Tokens Used: ~480
 Prompt:
-"Write a highly optimized C++ program using 'using namespace std;' to find prime numbers in a given range (rl to rh). The program must use multiprocessing (fork) to utilize all available logical cores. Each child process should handle a chunk of the range. The results (prime numbers) should be written to a file 'prime.txt' using low-level file handling (open/write) for speed. Also, measure and print the physical execution time. Avoid comments and keep indentation minimal."
+"Write a highly optimized C program (not C++) to find prime numbers in a given range (rl to rh). The program must use multiprocessing (fork) to utilize all available logical cores. Each child process should handle a chunk of the range. The results (prime numbers) should be written to a file 'prime.txt' using low-level file handling (open/write) and a buffer to minimize I/O overhead. Measure and print the physical execution time using clock_gettime. Ensure strict C syntax (stdio.h, standard bool)."
